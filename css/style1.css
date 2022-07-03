@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/skybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:rgb(216, 235, 241);
+    font-family: 'Mansalva', cursive;
+    font-size: 50pt;
+    font-weight: 300;
+}
+h3{
+    color: ivory;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22pt;
+}
+h4 {
+    font-family: 'Mansalva', cursive;
+    font-weight: 200;
+    color:rgb(254, 208, 216);
+    text-align: center;
+    font-size: 35pt;
+}
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+.left-col, .right-col {
+    background-color: #bde4f97d;
+    width: 33.33%;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+}
+.center-col {
+    background-color: rgba(250, 235, 215, 0.488);
+    width: 33.33%;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+}
+.box {
+    text-align: center;
+}

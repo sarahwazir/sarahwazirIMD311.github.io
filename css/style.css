@@ -1,0 +1,47 @@
+body.stickyheader {
+    margin-top: 200px;
+}
+h1{color:rgb(255, 255, 255);
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: 620;
+    font-size: 65pt;}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color: rgb(238, 213, 224);
+}
+.sticky-header {
+    background: rgba(243, 182, 224, 0.303);
+    position: fixed;
+    top: 0;
+    height: 201px;
+    width: 100%;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.02);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/skybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+p {
+    font-size: 16pt;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    color:blanchedalmond;
+}
+html {
+    scroll-behavior: smooth;
+}
+.awill img{
+    border: 10px solid rgb(232, 174, 221);
+}
+.awill {
+    text-align: center;
+}  

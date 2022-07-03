@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/skybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:rgb(233, 243, 246);
+    font-family: 'Mansalva', cursive;
+    font-size: 50pt;
+    font-weight: 300;
+}
+h3{
+    color: rgb(245, 190, 217);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11.5pt;
+    color:blanchedalmond;
+}
+.slide {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.slide img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.slide-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    background: rgba(120, 178, 225, 0.652);
+    padding: 20px;
+    color: azure;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.slide:hover .slide-content {
+    transform: translate(0, 0);
+}
+.slide-left .slide-content {
+    transform: translate(-100%, 0);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }

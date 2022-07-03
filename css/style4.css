@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/skybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:rgb(233, 243, 246);
+    font-family: 'Mansalva', cursive;
+    font-size: 50pt;
+    font-weight: 300;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13pt;
+    color:azure;
+}

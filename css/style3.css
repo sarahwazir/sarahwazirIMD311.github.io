@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/drawingbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:rgb(233, 243, 246);
+    font-family: 'Mansalva', cursive;
+    font-size: 50pt;
+    font-weight: 300;
+}
+div img{
+    display: block;
+    margin: 0 auto;
+    border: 10px solid rgba(248, 242, 199, 0.681);
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: floralwhite;
+    size: 18px;
+}
